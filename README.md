@@ -1,14 +1,17 @@
 # My Building of Sales Pipeline Management workflow using AI Agent 
 
-The Way AI Finds What Matters — Faster, Smarter, and More Like Us
+Sales Workflow with AI-Powered Agents
 
-## The Problem with “Dumb” Search
+## TL;DR
+Built a comprehensive sales pipeline management system using AI agents to qualify leads, develop strategies, and create closing plans. The system uses Streamlit for the interface, CrewAI for agent orchestration, and maintains a historical database of all analyses.
 
-Early in my career, I built a recipe recommendation app that matched keywords like “chicken” to recipes containing “chicken.” It failed spectacularly. Users searching for “quick weeknight meals” didn’t care about keywords — they wanted context: meals under 30 minutes, minimal cleanup, kid-friendly. Traditional search couldn’t bridge that gap.
+## Introduction:
+I developed this AI-powered sales pipeline management system to show how businesses handle their sales processes. The system combines multiple specialized AI agents to analyze leads, develop strategies, and create closing plans — all while maintaining a structured, data-driven approach.
 
-Vector search changes this. Instead of treating data as strings, it maps everything — text, images, user behavior — into numerical vectors that capture meaning. For example, “quick weeknight meals,” “30-minute dinners,” and “easy family recipes” cluster closely in vector space, even with zero overlapping keywords. This is how AI starts to “think” like us .
+## What’s This Article About?
+This article explores the implementation of an AI-based sales pipeline management system. It demonstrates how multiple AI agents can work together to analyze sales leads, each specializing in different aspects of the sales process — from initial qualification to closing strategies. The system provides structured, consistent analysis while maintaining a historical record of all leads and decisions.
 
-Full Article : [https://medium.com/@learn-simplified/My-Building-of-Sales-Pipeline-Management-workflow-using-AI-Agent-0f290b5039ec
+Full Article : [https://medium.com/@learn-simplified/my-building-of-sales-pipeline-management-workflow-using-ai-agent-d7a3df09686b
 
 
 ## Tech Stack
@@ -25,22 +28,15 @@ Full Article : [https://medium.com/@learn-simplified/My-Building-of-Sales-Pipeli
 
 
 
-## What This Article Is About
-This article is my try to dives into how vector search is revolutionizing AI’s ability to discover patterns, relationships, and insights at unprecedented speed and precision. By moving beyond rigid keyword matching, vector search enables machines to understand context, infer intent, and retrieve results with human-like intuition. Through Python code examples, system design diagrams, and industry use cases (like accelerating drug discovery and personalizing content feeds), we’ll explore how this technology makes AI systems faster, more adaptable.
+## Why Read It?
+AI is transforming business operations, particularly in sales. This implementation shows how companies can leverage AI to standardize their sales processes, make data-driven decisions, and scale their operations effectively. The system demonstrates practical application of AI in sales, from lead qualification to closing strategies.
 
 ## Architecture
 
 ![Design Diagram](design_docs/design.png)
 
 
-## Why Read It?
-- For Developers: Build lightning-fast search systems using modern tools like FAISS and Hugging Face, with optimizations for real-world latency and scale.
-- For Business Leaders: Discover how vector search drives competitive advantages in customer experience, fraud detection, and dynamic pricing.
-- For Innovators: Learn why hybrid architectures and multimodal AI are the future of intelligent systems.
-- Bonus: Lessons from my own journey deploying vector search — including costly mistakes and unexpected breakthroughs.
-
-
-# Tutorial: How Vector Search is Changing the Game for AI-Powered Discovery
+# Tutorial: My Building of Sales Pipeline Management workflow using AI Agent
 
 ## Prerequisites
 - Python installed on your system.
@@ -70,7 +66,7 @@ This article is my try to dives into how vector search is revolutionizing AI’s
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "How Vector Search is Changing the Game for AI-Powered Discovery"
+Follow these steps to set up and run the  "My Building of Sales Pipeline Management workflow using AI Agent"
 
 1. Navigate to your project directory:
    ```
@@ -85,6 +81,11 @@ Follow these steps to set up and run the  "How Vector Search is Changing the Gam
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
+Run - Hands-On Guide: Let's Build Invoice Processing Using AI Agents
 
-
+  
+   ```
+   streamlit run streamlit_app.py
+   ```
+   
 
