@@ -11,16 +11,26 @@ Vector search changes this. Instead of treating data as strings, it maps everyth
 Full Article : [https://medium.com/@learn-simplified/My-Building-of-Sales-Pipeline-Management-workflow-using-AI-Agent-0f290b5039ec
 
 
+## Tech Stack
+
+| **Component**        | **Technology**              |
+|----------------------|-----------------------------|
+| **Frontend**          | Streamlit                   |
+| **AI Framework**      | CrewAI, OpenAI               |
+| **Data Processing**   | Pandas, NumPy                |
+| **Data Storage**      | CSV (via Pandas)             |
+| **Visualization**     | Plotly                      |
+| **Environment**       | Python-dotenv                |
+| **Additional Tools**  | DuckDuckGo Search, Requests  |
+
+
 
 ## What This Article Is About
 This article is my try to dives into how vector search is revolutionizing AI’s ability to discover patterns, relationships, and insights at unprecedented speed and precision. By moving beyond rigid keyword matching, vector search enables machines to understand context, infer intent, and retrieve results with human-like intuition. Through Python code examples, system design diagrams, and industry use cases (like accelerating drug discovery and personalizing content feeds), we’ll explore how this technology makes AI systems faster, more adaptable.
 
 ## Architecture
 
-![Design Diagram](docs/1.jpg)
-![Design Diagram](docs/2.jpg)
-![Design Diagram](docs/3.png)
-
+![Design Diagram](design_docs/design.png)
 
 
 ## Why Read It?
