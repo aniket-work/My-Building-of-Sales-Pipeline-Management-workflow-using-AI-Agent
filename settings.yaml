@@ -1,0 +1,15 @@
+page_config:
+  page_title: "AI Sales Pipeline Manager"
+  page_icon: "💼"
+  layout: "wide"
+
+styles:
+  custom_css: |
+    .main { padding: 2rem; }
+    .stButton>button { width: 100%; margin-top: 1rem; }
+    .reportview-container { background: #f0f2f6; }
+    .css-1d391kg { padding: 2rem 1rem; }
+    .stProgress .st-bo { background-color: #1f77b4; }
+
+logging:
+  level: "DEBUG"

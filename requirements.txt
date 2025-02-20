@@ -1,0 +1,10 @@
+crewai
+openai
+python-dotenv
+duckduckgo-search
+requests
+pandas
+numpy
+streamlit
+requests
+plotly
